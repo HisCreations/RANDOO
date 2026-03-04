@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Romero</title>
+
+<style>
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+/* BACK BUTTON */
+.back-btn {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: white;
+    padding: 20px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #555;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Center video */
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* YouTube video size */
+iframe {
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    border: none;
+}
+</style>
+</head>
+
+<body>
+
+<a href="index.html" class="back-btn">⬅ Back to Home</a>
+
+<div class="container">
+
+<h1>Romero Video</h1>
+
+<div class="video-wrapper">
+    <iframe 
+        src="https://www.youtube.com/embed/Vhd5N-v2h90"
+        title="Romero video"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<p>This is the Romero video description placed below the video.</p>
+
+</div>
+
+</body>
+</html>
